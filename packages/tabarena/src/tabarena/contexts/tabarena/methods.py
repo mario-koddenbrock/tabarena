@@ -63,6 +63,7 @@ from tabarena.models.fastai.info import fastai_method_metadata
 from tabarena.models.iltm.info import iltm_method_metadata
 from tabarena.models.knn.info import knn_method_metadata as knn_metadata
 from tabarena.models.lightgbm.info import lightgbm_method_metadata
+from tabarena.models.lightpfn.info import lightpfn_method_metadata
 from tabarena.models.limix.info import limix_method_metadata as limix_metadata
 from tabarena.models.limix_2.info import limix_2_method_metadata
 from tabarena.models.lr.info import (
@@ -236,6 +237,7 @@ tabarena_method_metadata_collection = MethodMetadataCollection(
         tabpfn_3_5_fast_method_metadata,
         limix_2_method_metadata,
         tabdpt_v13_method_metadata,
+        lightpfn_method_metadata,
     ],
 )
 
